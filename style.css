@@ -1,0 +1,30 @@
+header{ color:#f3d80f;
+}
+h2{ color:#f3d80f;}
+body{background-color: rgb(247, 255, 240); 
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+color: black;
+font-size: 24px;
+display: flex;
+flex-direction: column;
+}
+header{background-color:chocolate;
+padding: 3em 0 3em 0; 
+height: auto;
+}
+h1{background-color: chocolate;
+padding: 2em 0 2em 0;
+border: 0,5em 0 0,5em 0;
+margin: auto;}
+h2{background-color: chocolate;
+width: auto;
+padding-left: 1em 0 1em 0;
+border: 0,5em 0 0,5em 0;
+height: fit-content;
+margin:auto
+}
+
+
+
+

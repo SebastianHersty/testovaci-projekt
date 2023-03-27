@@ -1,11 +1,11 @@
-header {
+ h3  {
         color: #f3d80f;
         text-align: left;
         padding: 25px;
         font-size: 25px;
         text-transform: capitalize;
         background-color: blueviolet;
-        padding: 3em 0 3em 0;
+        padding: 2em 0 2em 0;
         height: 2em 0 2em 0;
 
 }
@@ -37,7 +37,6 @@ h1 {
 }
 
 h2 {
-        background-color: blue;
         width: auto;
         padding-left: 1em 0 1em 0;
         border: 0, 5em 0 0, 5em 0;

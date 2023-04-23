@@ -1,67 +1,160 @@
- h3  {
-        color: #f3d80f;
-        text-align: left;
-        padding: 25px;
-        font-size: 25px;
-        text-transform: capitalize;
-        background-color: blueviolet;
-        padding: 2em 0 2em 0;
-        height: 2em 0 2em 0;
-
+header {
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    border-bottom: solid 2px gray;
+    width: 900px;
+    margin: auto;
+    
+    padding: 10px 0;
 }
 
-img {
-        background-color: blue;
-        background-position: 50%;
-        height: 725px;
-        width: 100%;
-        text-decoration: dashed;
+.openlab-logo {
+    background-position: 60%;
+    height: 28px;
+    width: 120px;
+    position: relative;
+    left: -110px;
+    top: 15px;
 }
 
 body {
-        background-color: rgb(247, 255, 240);
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-        color: black;
-        font-size: 24px;
-        display: flex;
-        flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+}
+
+.openlab-png {
+    background-color: #3597FF;
+    height: 418px;
+    width: 542px;
+    text-decoration: none;
+    padding: 24px 12px;
+    padding-top: 1.5rem!important;
+
 }
 
 h1 {
-        background-color: blue;
-        padding: 2em 0 2em 0;
-        border: 0, 5em 0 0, 5em 0;
-        margin: auto;
-        -webkit-text-fill-color: rgb(240, 255, 250);
-}
-
-h2 {
-        width: auto;
-        padding-left: 1em 0 1em 0;
-        border: 0, 5em 0 0, 5em 0;
-        height: fit-content;
-        margin: auto
+    padding-top: 1.5rem!important;
+    text-align: left;
+    text-align-last: left;
+    color: #FFFF;
+    font: size 25px;
+    text-transform: unset;
+    vertical-align: baseline;
+    margin-top: 0;
+    line-height: 1.2;
 }
 
 nav {
-        background-color: white;
-        background-position: left;
-        text-align:center;
-        flex-flow: nowrap;
-        block-size: auto;
-        writing-mode: sideways-lr;
-        border: solid;
-        float: left;
-        width: auto;
-        height: min-content;
+    background-position: left;
+    text-align: center;
+    flex-flow: nowrap;
+    writing-mode: sideways-lr;
+    float: left;
+    width: auto;
 
 }
 
 * {
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body {
-        font-family: Arial, Helvetica, sans-serif;
+.topnav a {
+    margin-right: 20px;
+    color: black;
+    transition: 0.20s;
+
+}
+
+.topnav a:hover {
+    color:#3597FF;
+}
+
+.content {
+    background-color: #3597FF;
+    height: 500px;
+    display: grid;
+    grid-template: 100% / repeat(2, 50%);
+    position: relative;
+    width: 100vw;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #3597FF;
+    padding: 10px;
+
+}
+
+.realizácia {
+    text-align: left;
+    color: #FFFF;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
+.link--underline {
+    text-decoration: none;
+}
+
+.tech {
+    text-align: center;
+    color: darkgrey;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h5 {
+    padding-top: 1.5rem!important;
+    text-decoration: none;
+    font-weight: 700 !important;
+    margin: 0px 0px 8px;
+    font-size: 1.25rem;
+    margin-top: 0;
+    line-height: 1.2;
+    font-family: 'SF Pro Display', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #fff;
+    background-clip: border-box;
+}
+
+p {
+    text-align: left;
+}
+
+.section {
+    display: grid;
+    grid-template: 100% / repeat(3, 1fr);
+    width: 60%;
+    margin: auto;
+    grid-gap: 5%;
+
+}
+.o_letter-webp{
+    background-position:;
+    width: 482px;
+    max-width: unset;
+    vertical-align: middle;
+    position: relative;
+    right: -1200px;
+    
 }
